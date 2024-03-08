@@ -14,6 +14,20 @@
 ![highest_gpa_gui](https://i.imgur.com/q6Eb1t5.png)
 ![highest_gpa_cli](https://i.imgur.com/eiMlUo6.png)
 
+## Optimization Results
+
+```/all-student```
+![all_student](https://i.imgur.com/oPUHu5f.png)
+We got improvements up to 50% in the runtime of the program.
+
+```/all-student-name```
+![all_student_name](https://i.imgur.com/qKUVMBa.png)
+We got improvements of ~20% in the runtime of the program.
+
+```highest-gpa```
+![highest_gpa](https://i.imgur.com/qKUVMBa.png)
+We seen no significant improvements in the runtime of the program.
+
 ## Reflection
 1. JMeter can be useful if we want to test the overall performance of our application. IntelliJ Profiler can be useful if we want to track down what part of our application is taking the most time.
 2. The profiling process can identify what functions or methods are taking the most time to execute. This can help us identify what part of our application that needs optimizing and/or refactoring.
